@@ -8,5 +8,10 @@ Cancel any booking<br>
 Add new rooms<br>
 Update room details<br>
 Delete rooms<br>
+<br>
+<h1>User Role</h1>
+Users have the following permissions:<br>
+Book a room<br>
+View their bookings<br>
 
 
