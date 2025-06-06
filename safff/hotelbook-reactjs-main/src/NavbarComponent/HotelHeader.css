@@ -1,0 +1,9 @@
+.btn-danger:hover,
+.btn-danger:active {
+  background-color: white;
+  color: #FF4742;
+}
+
+.btn-danger:active {
+  opacity: 0.5;
+}

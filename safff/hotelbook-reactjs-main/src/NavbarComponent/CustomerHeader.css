@@ -1,0 +1,6 @@
+.btn-danger:hover,
+.btn-danger:active {
+  background-color: initial;
+  color: green;
+}
+

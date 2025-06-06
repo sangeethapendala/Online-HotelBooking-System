@@ -1,0 +1,52 @@
+/* App.css */
+.App {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .overlay h1 {
+    margin: 0;
+  }
+  #top-text {
+    font-size: 58px;
+    font-family: Impact, sans-serif;
+    text-shadow: 2px 2px 4px rgba(15, 12, 12, 0.5);
+    font-weight: bold;
+    color: #FFC5C5;
+    transform: translateY(-50%);
+  }
+  
+  #bottom-text {
+    font-size: 58px;
+    font-family: Impact, sans-serif;
+    text-shadow: 2px 2px 4px rgba(15, 12, 12, 0.5);
+    font-weight: bold;
+    color: #87CEEB;
+    transform: translateY(50%);
+  }

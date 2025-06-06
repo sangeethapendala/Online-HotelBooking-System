@@ -1,0 +1,128 @@
+/* Login.css */
+
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background Image */
+.bg-image {
+  background: url('https://image-tc.galaxy.tf/wijpeg-61cvliphwj2ti2gpy2mztj7rq/empire-hotel-new-york-rooftop-pool.jpg?width=1920') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glass Effect Container */
+.glass {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Centered Content */
+.login-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-center h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.login-center p {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* Input Fields */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Error Messages */
+.error {
+  color: #ff4d4d;
+  font-size: 0.9rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Password Toggle Icon */
+.pass-input-div {
+  position: relative;
+}
+
+.pass-input-div input {
+  padding-right: 40px;
+}
+
+.pass-input-div .fa-eye,
+.pass-input-div .fa-eye-slash {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+/* Role Selector */
+.gender-div select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+.button-31 {
+  margin-top: 20px;
+}
+
+.button-31 button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-31 button:hover {
+  background-color: #45a049;
+}
+
+/* Link to Sign Up */
+.login-bottom-p {
+  margin-top: 1rem;
+}
+
+.login-bottom-p a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.login-bottom-p a:hover {
+  text-decoration: underline;
+}
